@@ -1,0 +1,127 @@
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    i,
+    ion-icon {
+        cursor: pointer;
+    }
+
+    body {
+        /* background-color: #f0f8ffa1; */
+        background-color: #fff;
+        overflow: hidden;
+
+    }
+
+    body::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    body::-webkit-scrollbar-track {
+        background-color: #f0f8ff;
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 3px;
+    }
+
+    body::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+    }
+
+    /*media queries*/
+    @media screen and (max-width : 1016px) {
+        .selected_contact_infos_preview {
+            display: none;
+        }
+
+        .messages-container {
+            width: 55%;
+        }
+
+        .messages-section {
+            width: 45%;
+        }
+
+        .messages-section {
+            width: calc();
+        }
+    }
+
+    @media screen and (max-width : 720px) {
+        .messages-section {
+            width: 100%;
+        }
+
+        .messages-container {
+            display: none;
+
+        }
+
+        .go_back {
+            display: block;
+        }
+
+        .selected_contact_infos_preview {
+            padding-top: 0;
+        }
+
+        .preview_head {
+            display: flex;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        .search-input {
+            display: none;
+
+        }
+
+        .search-button {
+            display: none;
+        }
+
+        .input-container {
+            display: flex;
+
+        }
+
+        #search-result {
+            position: fixed;
+            left: 0;
+            right: 0;
+            width: 100svw;
+            border-radius: 0;
+        }
+
+        .icon {
+            display: block;
+        }
+
+        .input {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width : 545px) {
+        .main {
+            padding-top: 65px;
+        }
+
+        .app-header-left p {
+            display: none;
+        }
+
+        .input-container {
+            margin-left: -1rem;
+        }
+
+        .app-header-right {
+            gap: 3px;
+        }
+    }

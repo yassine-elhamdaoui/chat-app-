@@ -1,0 +1,44 @@
+    CHAT APPLICATION README
+
+OVERVIEW : 
+    This chat application is designed to facilitate real-time messaging between users. It allows users to send and receive messages, view their contacts, and initiate conversations with other users. The application utilizes AJAX requests to communicate with the server for handling message exchanges.
+
+FEATURES : 
+    Real-time messaging: Users can send and receive messages in real-time using AJAX to communicate with the server.
+    Contacts list: Users can view their list of contacts and initiate conversations with them.
+    Responsive design: The application provides a responsive design to accommodate different screen sizes.
+
+TECHNOLOGIES USED : 
+    HTML, CSS: For the frontend user interface.
+    JavaScript: For implementing the chat functionalities .
+    PHP: For server-side scripts and handling the backend logic.
+    MySQL: For storing user data and messages in a database.
+    AJAX and JQUERY : for providing the real time features and talk to the database with out reloading the page .
+
+HOW TO RUN THE APP : 
+    Set up the server environment: Ensure that you have a web server (such as Apache) and PHP installed on your system.
+
+    Database setup: Create a MySQL database to store user data and messages. Import the required database tables using the provided SQL script.
+
+    Clone the repository: Clone the chat application repository to your local machine.
+
+    Configuration: Update the database connection settings in the appropriate PHP file (db_connection.php) to match your MySQL database credentials.
+
+    Host the application: Host the application on your web server.
+
+    Access the application: Open the application in your web browser by navigating to the appropriate URL.
+
+USAGE : 
+    Upon accessing the application, users will be able to see their list of contacts.
+    Clicking on a contact will display the chat interface for that contact.
+    Users can send messages by typing in the message input field and clicking the send icon or pressing the "Enter" key.
+    New messages will be displayed in real-time as they are received from other users.
+
+FUTURE IMPROVEMENTS : 
+    User authentication: Implement user authentication to ensure secure messaging and protect user data.
+    Message history: Allow users to view their message history with each contact.
+    Message notifications: Implement real-time notifications for new messages.
+    Multimedia messaging: Enable support for sending images, videos, and other multimedia files.
+
+CREDITS : 
+    This chat application was developed by Yassine El Hamdaoui , elhamdaouiy288@gmail.com 
